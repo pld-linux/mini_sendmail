@@ -1,0 +1,11 @@
+--- Makefile	2002-01-04 06:05:25.000000000 +0000
++++ Makefile.	2004-11-26 23:36:21.000000000 +0000
+@@ -9,7 +9,7 @@
+ CC =		gcc
+ CFLAGS =	-O
+ #CFLAGS =	-g
+-LDFLAGS =	-s -static
++LDFLAGS =	-s
+ #LDFLAGS =	-g -static
+ LDLIBS =	$(SYSV_LIBS)
+ 
