@@ -7,7 +7,6 @@ License:	GPL
 Group:		Networking/Utilities
 Source0:	http://www.acme.com/software/mini_sendmail/%{name}-%{version}.tar.gz
 # Source0-md5:	fff344184e98cff0ea4d817da9d29383
-Patch0:		%{name}-makefile.patch
 URL:		http://www.acme.com/software/mini_sendmail/
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
@@ -25,10 +24,10 @@ emaili z wnêtrza ¶rodowiska chroot(2).
 
 %prep
 %setup -q
-%patch0 -p0
 
 %build
-%{__make}
+%{__make} \
+	LDFLAGS=
 
 %install
 rm -rf $RPM_BUILD_ROOT
