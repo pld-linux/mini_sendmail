@@ -1,12 +1,12 @@
 Summary:	Minimal forwarding MTA
 Summary(pl):	Minimalny MTA przekazuj±cy
 Name:		mini_sendmail
-Version:	1.3.5
+Version:	1.3.6
 Release:	0.1
 License:	GPL
 Group:		Networking/Utilities
 Source0:	http://www.acme.com/software/mini_sendmail/%{name}-%{version}.tar.gz
-# Source0-md5:	fff344184e98cff0ea4d817da9d29383
+# Source0-md5:	fb1585d2ad81c519a26d83bfd783dee8
 URL:		http://www.acme.com/software/mini_sendmail/
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
