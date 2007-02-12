@@ -1,5 +1,5 @@
 Summary:	Minimal forwarding MTA
-Summary(pl):	Minimalny MTA przekazuj±cy
+Summary(pl.UTF-8):   Minimalny MTA przekazujƒÖcy
 Name:		mini_sendmail
 Version:	1.3.6
 Release:	0.1
@@ -16,11 +16,11 @@ a copy of the message found there to all of the addresses listed. The
 message is sent by connecting to a local SMTP server. This means
 mini_sendmail can be used to send email from inside a chroot(2) area.
 
-%description -l pl
-mini_sendmail czyta standardowe wej∂cie i wysy≥a kopie wiadomo∂ci pod
-wszystkie podane adresy. Wiadomo∂Ê jest wysy≥ana do lokalnego serwera
-SMTP. Oznacza to, øe mini_sendmail moøe byÊ uøywany do wysy≥ania
-emaili z wnÍtrza ∂rodowiska chroot(2).
+%description -l pl.UTF-8
+mini_sendmail czyta standardowe wej≈õcie i wysy≈Ça kopie wiadomo≈õci pod
+wszystkie podane adresy. Wiadomo≈õƒá jest wysy≈Çana do lokalnego serwera
+SMTP. Oznacza to, ≈ºe mini_sendmail mo≈ºe byƒá u≈ºywany do wysy≈Çania
+emaili z wnƒôtrza ≈õrodowiska chroot(2).
 
 %prep
 %setup -q
