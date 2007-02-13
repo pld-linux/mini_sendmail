@@ -1,5 +1,5 @@
 Summary:	Minimal forwarding MTA
-Summary(pl.UTF-8):   Minimalny MTA przekazujący
+Summary(pl.UTF-8):	Minimalny MTA przekazujący
 Name:		mini_sendmail
 Version:	1.3.6
 Release:	0.1
